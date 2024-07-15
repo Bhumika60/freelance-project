@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyle Home Page</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <!-- Bootstrap css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--===================== Navbar Code ===================-->
+
+    <nav class="app__navbar">
+        <div class="app__logo">
+            <a href="#home"><img src="assets/logo.jpeg" alt="app logo"><span>Fyle</span></a>
+        </div>
+
+        <ul class="app__navbar-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#growth">Growth</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <button class="custom__button_btn">
+            Get Started
+        </button>
+        <label for="" class="menu__btn">
+            <i class='bx bx-menu'></i>
+            <i class='bx bx-x' id="close-icon" style="display:none;"></i>
+        </label>
+    </nav>
+
+    <!-- ===================== Contact Form ================-->
+
+    <div id="popupForm" class="popup-form">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Talk to us</h2>
+            <form method="POST" action="https://getform.io/f/bmdpknma">
+                <div class="form-field1">
+                    <input type="email" name="email" placeholder="Work email*" required>
+                    <label for="email">Work email</label>
+                </div>
+                <div class="nameBox">
+                    <div class="form-field2">
+                        <input type="text" name="fname" placeholder="First name*" required>
+                        <label for="fname">First name</label>
+                    </div>
+
+                    <div class="form-field3">
+                        <input type="text" name="lname" placeholder="Last name*" required></input>
+                        <label for="lname">Last name</label>
+                    </div>
+                </div>
+
+                <p><input type="checkbox" id="check" name="consent" required> I agree to Fyle's terms and
+                    consitions, and provide consent to send me communication.</p>
+                <button type="submit">Contact Us</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- ======================= Header Section =================================== -->
+
+    <div class="header__container section__padding app__wrapper" id="home">
+        <div class="header__container-left_side">
+            <h2 class="header__container-h2">AWARD WINNING</h2>
+            <h1 class="header__container-h1">DIGITAL MARKETING AGENCY</h1>
+            <p class="header__container-info">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ipsa quo officia ullam consectetur ipsum,
+                et nemo eius facere totam. Accusantium sint architecto iste corporis id itaque natus adipisci sed.
+            </p>
+            <button type="button" id="contactBtn" class="custom__button">Contact Us</button>
+        </div>
+        <div class="header__container-right_side">
+            <img src="/assets/Model.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- ================== Slider Section Code =================================== -->
+    <div class="slider__container section__padding section__container" id="services">
+        <h2 class="slider__container-h2 container-h2">WHAT WE DO</h2>
+        <div class="slider__container_info">
+            <h1 class="slider__container-h1 container-h1 ">SERVICES PROVIDE FOR YOU</h1>
+
+            <p class="slider__container-p container-p">
+                At our marketing agency, we understand that every client is unique, with distinct goals and challenges.
+                That's why we offer a comprehensive suite of services tailored to meet your specific needs and drive
+                tangible results. Here's a glimpse into the services we provide for you:
+            </p>
+        </div>
+
+        <div class="main-slider__container">
+            <div class="slider">
+                <div class="card">
+                    <div class="img"><img src="assets/slider1.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""> </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider2.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider3.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider1.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider2.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider3.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider1.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider2.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img"><img src="assets/slider3.png" alt="img" draggable="false"></div>
+                    <div class="layer">
+                        <img src="assets/icons/icon.svg" alt="">
+                        <h3>WEB DEVELOPMENT</h3>
+                        <p>We believe in transparency and accountability. </p>
+                        <a class="btn" target="_blank" href="https://www.fylehq.com/">READ MORE <img class="arrow"
+                                src="assets/icons/arrow.svg" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="dot-container">
+                <div class="dot red-dot"></div>
+                <div class="dot black-dot"></div>
+                <div class="dot black-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= Why Choose Us ================================== -->
+    <div class="why__choose__us__section section__padding" id="about">
+        <h2 class="why__choose__us_heading-h2 container-h2">WHY CHOOSE US</h2>
+        <h2 class="why__choose__us_heading-h1 container-h1">WHY WE ARE BEST</h2>
+
+        <div class="icons__group">
+            <div class="single__icon">
+                <img src="assets/icons/1.svg" alt="">
+                <h3>Clarified Vision & Target</h3>
+                <p>We believe in transparency and accountability.</p>
+            </div>
+            <div class="single__icon">
+                <img src="assets/icons/2.svg" alt="">
+                <h3>High Performance</h3>
+                <p>We believe in transparency and accountability.</p>
+            </div>
+            <div class="single__icon">
+                <img src="assets/icons/3.svg" alt="">
+                <h3>Maintain Security</h3>
+                <p>We believe in transparency and accountability. </p>
+            </div>
+            <div class="single__icon">
+                <img src="assets/icons/4.svg" alt="">
+                <h3>Better Strategy & Quality</h3>
+                <p>We believe in transparency and accountability. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================== Our Projects Section ==================================== -->
+    <div class="project__section section__padding" id="project">
+        <h2 class="project__heading-h2 container-h2">OUR PROJECT</h2>
+        <h2 class="project__heading-h1 container-h1">WHY WE ARE BEST</h2>
+
+        <div class="project-box">
+            <div class="left">
+                <img src="./assets/project1.png" alt="project-image" />
+            </div>
+            <div class="right">
+                <div class="desc active about__project" data-image="./assets/project1.png">
+                    <h3>Genderies Kei - Japan's Hot</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam, eos. Nemo nesciunt voluptatibus voluptas!
+                    </p>
+                </div>
+                <div class="desc about__project" data-image="./assets/project2.jpg">
+                    <h3>Better Strategy & Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam, eos. Nemo nesciunt voluptatibus voluptas!
+                    </p>
+                </div>
+                <div class="desc about__project" data-image="./assets/project3.png">
+                    <h3>Genderies Kei - Japan's Hot</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ipsam, eos. Nemo nesciunt voluptatibus voluptas!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =========================== Our Growth Section ================================== -->
+    <div class="growth__section section__padding" id="growth">
+        <h2 class="growth__section__heading-h2 container-h2">
+            EXPERTS GROWTS
+        </h2>
+        <h1 class="growth__section__heading-h1 container-h1">
+            OUR COMPANY GROWTH
+        </h1>
+
+        <div class="growth__cards-group">
+            <div class="growth__cards">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                </svg>
+                <h3>199 +</h3>
+                <p>Satisfied Customers</p>
+            </div>
+            <div class="growth__cards">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-clock-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                </svg>
+                <h3>1591 +</h3>
+                <p>Days Of Operation</p>
+            </div>
+            <div class="growth__cards">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                </svg>
+                <h3>283 +</h3>
+                <p>Complete Project</p>
+            </div>
+            <div class="growth__cards">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+                </svg>
+
+                <h3>75 +</h3>
+                <p>Win Awards</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================== FeedBack Section ====================================== -->
+    <div class="feedback__section section__padding" id="feedback">
+        <h2 class="feedback__section__heading-h2 container-h2">
+            CLIENT'S FEEDBACK
+        </h2>
+        <h1 class="feedback__section__heading-h1 container-h1">
+            PEOPLE SAY'S ABOUT US !
+        </h1>
+
+        <p class="feedback__para">
+            Jannt Tumoa the standard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repudiandae
+            repellendus tempore accusantium iusto porro vitae veniam odio, necessitatibus pariatur! Lorem ipsum used in
+            since the 1500s is adipisicing elit. Eum, sint modi dolores recusandae ipsum quibusdam Original.
+        </p>
+        <div class="span__holder">
+            <span class="feedback-name">
+                JANNAT TUMPA
+            </span>
+            <span class="inc">- COO, AMERIMAR ENTERPRISES, INC.</span>
+        </div>
+    </div>
+
+
+    <!-- ======================== Finally Footer Section ============================= -->
+    <div class="footer__section">
+        <img src="assets/Footer.png" alt="">
+    </div>
+
+    <!-- ================= Script Tags ================= -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.section__padding {
+    padding: 6rem 3rem;
+}
+
+/* All Buttons CSS code except the layer button */
+
+.custom__button {
+    background-color: var(--color-main);
+    color: var(--color-white);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    line-height: 30px;
+    font-size: 17px;
+    padding: 0.5rem 1.8rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all .3s ease;
+    animation: to_right 1.1s ease forwards;
+}
+
+.custom__button:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-main);
+    color: var(--color-black);
+}
+
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section__container {
+    min-height: 100vh;
+}
+
+
+
+/* website Heading CSS code */
+
+.container-h1 {
+    font-weight: 600;
+    color: #252525;
+    /* font-family: 'Cormorant Upright', serif; */
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 80px;
+    font-size: 55px;
+}
+
+.container-h2 {
+    font-family: 'Cormorant Upright', serif;
+    font-weight: 700;
+    color: var(--color-main);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 40px;
+}
+
+/* paragraph styling */
+.container-p {
+    line-height: 1.5;
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* Media Query For Every h1 & h2 in Website  */
+
+@media screen and (max-width: 1000px) {
+    .container-h1 {
+        font-size: 45px;
+    }
+
+    .container-h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container-h1 {
+        font-size: 38px;
+    }
+
+    .container-h2 {
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
