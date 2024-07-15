@@ -81,20 +81,30 @@
 @media screen and (max-width: 1000px) {
     .container-h1 {
         font-size: 45px;
+         line-height: 50px;
     }
 
     .container-h2 {
         font-size: 35px;
+         line-height: 30px;
+    }
+    .section__padding{
+        padding: 3.6rem 3rem;
     }
 }
 
 @media screen and (max-width: 750px) {
     .container-h1 {
         font-size: 38px;
+        line-height: 40px;
     }
 
     .container-h2 {
         font-size: 30px;
+          line-height: 26px;
+    }
+    .section__padding{
+        padding: 1.1rem 2rem;
     }
 }
 
