@@ -613,8 +613,8 @@
 
 .red-dot {
     background-color: var(--color-main);
-    background: url("/assets/icons/red-dot.svg");
-    background-size: contain;
+    background: url("../assets/icons/red-dot.svg");
+    background-size: contain; 
 }
 
 .black-dot {
