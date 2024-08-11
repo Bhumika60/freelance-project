@@ -7,7 +7,6 @@ This repository contains the web development internship project completed at Fyl
 - [Overview](#overview)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 
 ## Overview
 
@@ -28,7 +27,3 @@ Welcome to my Fyle internship project! This project involves the implementation 
 - JavaScript
 - jQuery
 
-## Installation
-
-1. Clone the repository: git clone [(https://github.com/Bhumika60/Fyle-Home-Page-Assignment.github.io)]
-2. 2. Open `index.html` in your browser.
